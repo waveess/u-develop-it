@@ -2,7 +2,7 @@
   "name": "u-develop-it",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "migrate": "sqlite3 db/election.db < db/schema.sql",
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/waveess/u-develop-it#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.13",
     "sqlite3": "^5.0.2"
   },
   "devDependencies": {
